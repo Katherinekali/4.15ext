@@ -1,1 +1,0 @@
-define(function(){function t(t){this.el=Array.from(document.querySelectorAll(t.el)),this.ops=t,this.load()}return function(){this.load=function(){var n=window.innerHeight,e=this;this.el.forEach(function(t){if(t.getBoundingClientRect().top<n){var i=t.getAttribute(e.ops.attr);t.src=i}})}}.call(t.prototype),t});

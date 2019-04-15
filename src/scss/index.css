@@ -1,0 +1,304 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper,
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  font-size: 0.37333rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ccc;
+}
+
+.header h2 {
+  width: 2.66667rem;
+  text-align: center;
+  font-size: 0.58667rem;
+  color: #f00;
+  font-weight: bolder;
+}
+
+.header p {
+  width: 1.6rem;
+  text-align: center;
+}
+
+.header p i {
+  font-size: 0.37333rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 4.8rem;
+}
+
+.swiper .container {
+  width: 100%;
+  height: 4.8rem;
+}
+
+.swiper .container img {
+  width: 100%;
+  height: 4.8rem;
+}
+
+.list {
+  width: 100%;
+}
+
+.list ul {
+  width: 100%;
+  padding: 0 0.26667rem;
+}
+
+.list ul li {
+  width: 100%;
+  height: 1.06667rem;
+  line-height: 1.06667rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.content ul {
+  width: 100%;
+  padding: 0 0.26667rem;
+}
+
+.content ul li {
+  width: 100%;
+  height: 2.66667rem;
+  display: flex;
+}
+
+.content ul li h2 {
+  width: 2.66667rem;
+  height: 2.66667rem;
+  padding: 0.26667rem;
+}
+
+.content ul li h2 img {
+  width: 2.13333rem;
+  height: 2.13333rem;
+}
+
+.content ul li div {
+  flex: 1;
+  padding: 0.26667rem;
+  font-size: 0.48rem;
+}

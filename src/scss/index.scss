@@ -1,0 +1,109 @@
+@import "./_minix";
+@import "./common.scss";
+* {
+    box-sizing: border-box;
+}
+
+.wrapper,
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    font-size: pxTorem(14px);
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: pxTorem(45px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ccc;
+    h2 {
+        width: pxTorem(100px);
+        text-align: center;
+        font-size: pxTorem(22px);
+        color: #f00;
+        font-weight: bolder;
+    }
+    p {
+        width: pxTorem(60px);
+        text-align: center;
+        i {
+            font-size: pxTorem(14px);
+        }
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: pxTorem(180px);
+    .container {
+        width: 100%;
+        height: pxTorem(180px);
+        img {
+            width: 100%;
+            height: pxTorem(180px);
+        }
+    }
+}
+
+.list {
+    width: 100%;
+    ul {
+        width: 100%;
+        padding: 0 pxTorem(10px);
+        li {
+            width: 100%;
+            height: pxTorem(40px);
+            line-height: pxTorem(40px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+}
+
+.content {
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    ul {
+        width: 100%;
+        padding: 0 pxTorem(10px);
+        li {
+            width: 100%;
+            height: pxTorem(100px);
+            display: flex;
+            h2 {
+                width: pxTorem(100px);
+                height: pxTorem(100px);
+                padding: pxTorem(10px);
+                img {
+                    width: pxTorem(80px);
+                    height: pxTorem(80px);
+                }
+            }
+            div {
+                flex: 1;
+                padding: pxTorem(10px);
+                font-size: pxTorem(18px);
+            }
+        }
+    }
+}
